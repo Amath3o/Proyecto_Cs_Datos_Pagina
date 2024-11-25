@@ -21,9 +21,11 @@ section {
 
 /* Títulos */
 h1 {
+  background-color: #3498db;
   text-align: center;
   font-size: 2.5rem;
   color: #2c3e50;
+  padding: 1rem 0;
 }
 
 h2 {
