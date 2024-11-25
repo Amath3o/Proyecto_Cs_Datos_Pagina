@@ -11,7 +11,7 @@ body {
 /* Contenedor principal */
 .content {
   max-width: 960px; /* Ancho máximo del contenido */
-  margin: 20px auto; /* Márgenes automáticos para centrar */
+  margin: 40px auto; /* Márgenes automáticos para centrar */
   padding: 20px; /* Espaciado interno */
   background: white; /* Fondo blanco */
   border-radius: 8px; /* Bordes redondeados */
