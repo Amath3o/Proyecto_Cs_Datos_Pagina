@@ -95,6 +95,33 @@ a.link-demre:hover {
     border-bottom-color: #2980b9; /* Cambia el color de la línea al pasar el ratón */
 }
 
+/* Estilo para las tablas */
+.tabla-estilo {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.tabla-estilo th, .tabla-estilo td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla-estilo th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+.tabla-estilo tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla-estilo tr:hover {
+    background-color: #eaeaea;
+}
+
 /* Footer */
 footer {
   text-align: center;
