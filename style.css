@@ -81,6 +81,20 @@ img {
   border-radius: 8px;
 }
 
+/* Estilo para el enlace */
+a.link-demre {
+    color: #3498db; /* Cambia el color del texto */
+    font-weight: bold; /* Hace el texto en negrita */
+    text-decoration: none; /* Elimina el subrayado */
+    border-bottom: 2px solid #3498db; /* Agrega una línea debajo */
+    padding-bottom: 2px; /* Da un pequeño margen en la parte inferior */
+}
+
+a.link-demre:hover {
+    color: #2980b9; /* Cambia el color al pasar el ratón */
+    border-bottom-color: #2980b9; /* Cambia el color de la línea al pasar el ratón */
+}
+
 /* Footer */
 footer {
   text-align: center;
