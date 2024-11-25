@@ -40,11 +40,17 @@ h2 {
 }
 
 /* Navegación */
+nav {
+  background-color: #035292;
+  padding: 0.5rem 0;
+}
+
 nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 nav ul li {
@@ -52,7 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #3498db;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
 }
