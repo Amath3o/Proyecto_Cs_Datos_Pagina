@@ -78,8 +78,9 @@ img {
 /* Footer */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 1rem;
   background: #2c3e50;
   color: white;
+  margin-top: 2rem;
 }
 
