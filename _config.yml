@@ -2,5 +2,5 @@ title: "Mi Proyecto de Ciencia de Datos"
 description: "Presentación de los análisis y hallazgos obtenidos a partir de los datos educativos."
 theme: jekyll-theme-minima
 url: "https://Amath3o.github.io/Proyecto_Cs_Datos_Pagina"
-baseurl: ""  # Si tu repositorio está en la raíz del sitio. Si está en un subdirectorio, pon "/Proyecto_Cs_Datos_Pagina"
+baseurl: "" 
 
