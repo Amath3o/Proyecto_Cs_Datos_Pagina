@@ -44,6 +44,34 @@ section {
   border-radius: 8px;
 }
 
+
+/* Contenedor de imágenes más pequeñas*/
+.contenedor-imagen-pequeña {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  max-width: 50%;
+  text-align: center;
+}
+
+.contenedor-imagen-pequeña:hover {
+  border-color: #3498db;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor-imagen-pequeña img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
+
+
 /* Contenedor tablas */
 #inscripcion, #rendicion, #postulacion, #matricula {
   background-color: #ffffff; /* Fondo blanco */
