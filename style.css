@@ -83,7 +83,6 @@ nav ul li a:hover {
 
 /* Párrafos */
 p {
-  font-size: 1rem;
   margin-bottom: 20px; /* Espaciado entre párrafos */
   text-align: justify;
 }
@@ -139,7 +138,7 @@ a.link-demre:hover {
 }
 
 /* Footer */
-footer {
+.estilo_footer {
   text-align: center;
   padding: 1rem;
   background: #2c3e50;
