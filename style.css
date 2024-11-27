@@ -169,6 +169,7 @@ estilo zebra
 /* Prueab otro estilo Tabla*/
 .tabla-estilo {
     width: 100%;
+    margin: auto; /* Centra horizontalmente */
     border-collapse: collapse;
     background-color: white; /* Fondo blanco para la tabla */
     border-radius: 10px;
