@@ -21,20 +21,20 @@ section {
 
 /* Contenedor tablas */
 #inscripcion, #rendicion, #postulacion, #matricula {
-    background-color: #ffe4e1; /* Color rosado */
-    padding: 20px;
-    margin-bottom: 10px;
-    border: 2px solid #ff7f7f; /* Borde rojo claro */
-    border-radius: 10px;
+  background-color: #D7D7D7; 
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
 }
 
 /* Títulos */
 header {
-    background: linear-gradient(90deg, #3498db, #8e44ad);
-    color: white;
-    text-align: center;
-    padding: 50px 10px;
-    font-family: 'Lato', sans-serif;
+  background: linear-gradient(90deg, #3498db, #8e44ad);
+  color: white;
+  text-align: center;
+  padding: 50px 10px;
+  font-family: 'Lato', sans-serif;
 }
 
 header h1 {
