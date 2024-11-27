@@ -37,7 +37,9 @@ section {
     max-width: 900px;
     margin: 20px auto;
 }
-#inscripcion h4, #rendicion h4, #postulacion h4, #matricula h4{
+
+/*PROBAR COLOCAR ACA LAS CONDICIONES Y ELIMINAR LA CLASE "TEXTO CENTRADO"*/
+#inscripcion h3, #rendicion h3, #postulacion h3, #matricula h3{
   text-align: center;
   margin-bottom: 20px;
 }
