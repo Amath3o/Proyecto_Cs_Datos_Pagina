@@ -119,7 +119,7 @@ a.link-demre:hover {
 .tabla-estilo th {
     background-color: #f2f2f2;
     font-weight: bold;
-    color: #333;
+    color: #34495E;
 }
 
 .tabla-estilo tr:nth-child(even) {
