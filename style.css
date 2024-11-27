@@ -28,20 +28,22 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
 }
 
-/*Prueba*/
+/*Contenedor tablas*/
 #inscripcion, #rendicion, #postulacion, #matricula {
-    background-color: linear-gradient(135deg, #4a90e2, #6a1b9a); /* Degradado azul-morado */
-    border-radius: 15px;
-    padding: 25px;
-    color: white; /* Texto blanco dentro del contenedor */
-    max-width: 900px;
-    margin: 20px auto;
+  background-color: linear-gradient(135deg, #4a90e2, #6a1b9a); /* Degradado azul-morado (no se ve así) */
+  padding: 25px;
+  border-radius: 15px;
+  color: white; /* Texto blanco dentro del contenedor (no se ve así)*/
+  max-width: 900px;
+  margin: 20px auto;
+  margin-bottom: 40px;
 }
 
-/*PROBAR COLOCAR ACA LAS CONDICIONES Y ELIMINAR LA CLASE "TEXTO CENTRADO"*/
+/*Títulos tablas*/
 #inscripcion h3, #rendicion h3, #postulacion h3, #matricula h3{
   text-align: center;
-  margin-bottom: 20px;
+  color: #4a90e2;
+  margin: 20px 0;
 }
 
 
@@ -169,12 +171,12 @@ estilo zebra
 }
 */
 
+/*
 .titulo_centrado {
-    text-align: center; /* Centra el texto horizontalmente */
+    text-align: center;
     color: #4a90e2;
     margin: 20px 0;
-}
-
+} */
 
 /* Prueab otro estilo Tabla*/
 .tabla-estilo {
