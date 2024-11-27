@@ -83,6 +83,7 @@ nav ul li a:hover {
 
 /* Párrafos */
 p {
+  font-size: 1rem;
   margin-bottom: 20px; /* Espaciado entre párrafos */
   text-align: justify;
 }
