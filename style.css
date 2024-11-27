@@ -99,7 +99,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #2ecc71;
+    background-color: #B1B8FF;
     color: white;
     border-radius: 5px;
 }
@@ -189,7 +189,7 @@ estilo zebra
 }
 
 .tabla-estilo tr:hover {
-    background-color: #f3e5f5; /* Morado claro al pasar el mouse */
+    background-color: #B1B8FF; /* Morado claro al pasar el mouse */
 }
 
 /* Footer */
