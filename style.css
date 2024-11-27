@@ -8,6 +8,7 @@ body {
   line-height: 1.6;
 }
 
+
 /* Contenedor principal */
 section {
   max-width: 960px; /* Ancho máximo del contenido */
@@ -19,6 +20,7 @@ section {
   border-left: 6px solid #3498db; /* Barra de color a la izquierda */
   text-align: left; /* Alineación izquierda dentro de secciones */
 }
+
 
 /* Contenedor de imágenes */
 .contenedor-imagen {
@@ -42,34 +44,6 @@ section {
   display: block;
   margin: auto;
   border-radius: 8px;
-}
-
-
-/* Contenedor de imágenes más pequeñas*/
-.contenedor-imagen-pequeña {
-  background-color: #ffffff;
-  padding: 15px;
-  margin: 20px auto;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
-  max-width: 50%;
-  text-align: center;
-}
-
-.contenedor-imagen-pequeña:hover {
-  border-color: #3498db;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.contenedor-imagen-pequeña img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
-  border-radius: 8px;
-  image-rendering: auto;
 }
 
 
@@ -98,6 +72,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
 
 /* Títulos */
 header {
@@ -160,11 +135,13 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+
 /* Párrafos */
 p {
   margin-bottom: 20px; /* Espaciado entre párrafos */
   text-align: justify;
 }
+
 
 /* Estilo para el enlace */
 a.link-demre {
@@ -179,6 +156,7 @@ a.link-demre:hover {
     color: #2980b9; /* Cambia el color al pasar el ratón */
     border-bottom-color: #2980b9; /* Cambia el color de la línea al pasar el ratón */
 }
+
 
 /* Estilo para las tablas */
 .tabla-estilo {
@@ -205,6 +183,7 @@ a.link-demre:hover {
 .tabla-estilo tr:hover {
     background-color: #B1B8FF; /* Morado claro al pasar el mouse */
 }
+
 
 /* Footer */
 .estilo_footer {
