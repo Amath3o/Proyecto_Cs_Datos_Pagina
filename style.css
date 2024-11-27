@@ -69,6 +69,7 @@ section {
   display: block;
   margin: auto;
   border-radius: 8px;
+  image-rendering: auto;
 }
 
 
