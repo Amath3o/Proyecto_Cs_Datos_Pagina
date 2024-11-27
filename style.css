@@ -16,6 +16,7 @@ section {
   background: white; /* Fondo blanco */
   border-radius: 8px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+  text-align: left; /* Alineación izquierda dentro de secciones */
 }
 
 /* Títulos */
@@ -95,10 +96,6 @@ a.link-demre:hover {
     border-bottom-color: #2980b9; /* Cambia el color de la línea al pasar el ratón */
 }
 
-table {
-    all: unset; /* Reinicia cualquier estilo global que interfiera */
-}
-  
 /* Estilo para las tablas */
 .tabla-estilo {
     width: 100%;
@@ -110,7 +107,6 @@ table {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
-    white-space: nowrap; /* Evita que el texto se desborde */
 }
 
 .tabla-estilo th {
@@ -135,4 +131,3 @@ footer {
   color: white;
   margin-top: 2rem;
 }
-
