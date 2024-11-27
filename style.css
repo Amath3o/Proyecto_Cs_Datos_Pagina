@@ -19,20 +19,6 @@ section {
   text-align: left; /* Alineación izquierda dentro de secciones */
 }
 
-/* Prueba estilo secciones */
-section {
-    padding: 50px 20px;
-}
-
-section:nth-child(even) {
-    background-color: #f4f4f4;
-}
-
-section:nth-child(odd) {
-    background-color: white;
-}
-
-
 /* Títulos */
 header {
     background: linear-gradient(90deg, #3498db, #8e44ad);
@@ -49,12 +35,21 @@ header h1 {
     margin: 0;
 }
 
-h2 {
+/*h2 {
   font-size: 1.8rem;
   color: #34495e;
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
   margin-bottom: 20px;
+}*/
+
+/* PRUEBA*/
+h2 {
+    font-size: 2rem;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* Navegación */
