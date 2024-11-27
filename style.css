@@ -160,11 +160,20 @@ a.link-demre:hover {
     background-color: #eaeaea;
 }
 
-/* Footer */
 footer {
-  text-align: center;
-  padding: 1rem;
-  background: #2c3e50;
-  color: white;
-  margin-top: 2rem;
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #2ecc71;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
