@@ -103,6 +103,10 @@ a.link-demre:hover {
     border-bottom-color: #2980b9; /* Cambia el color de la línea al pasar el ratón */
 }
 
+table {
+    all: unset; /* Reinicia cualquier estilo global que interfiera */
+}
+  
 /* Estilo para las tablas */
 .tabla-estilo {
     width: 100%;
