@@ -3,7 +3,7 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 10px; /* Añade un margen interno general para el texto */
-  background-color: #f9f9f9;
+  background-color: #E9E9E9;
   color: #333;
   line-height: 1.6;
 }
@@ -114,13 +114,15 @@ p {
 }
 
 /* Imágenes */
-img {
+.responsive-img {
   display: block;
-  margin: 20px auto;
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+  max-width: 100%; /* Limita el ancho al contenedor */
+  height: auto; /* Ajusta automáticamente la altura */
+  margin: 20px auto; /* Centra la imagen */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
 }
+
 
 /* Estilo para el enlace */
 a.link-demre {
