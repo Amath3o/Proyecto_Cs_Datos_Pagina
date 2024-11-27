@@ -113,16 +113,28 @@ p {
   text-align: justify;
 }
 
-/* Imágenes */
+/* Imágenes *
 .responsive-img {
   display: block;
-  max-width: 100%; /* Limita el ancho al contenedor */
+  max-width: 100%; /* Limita el ancho al contenedor 
+  height: auto;
+  margin: 20px auto; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Imágenes */
+.responsive-img {
+  background-color: #ffffff;
+  padding: 20px;
+  max-width: 80%; /* Limita el ancho al contenedor */
   height: auto; /* Ajusta automáticamente la altura */
   margin: 20px auto; /* Centra la imagen */
   border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
 }
-
 
 /* Estilo para el enlace */
 a.link-demre {
