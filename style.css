@@ -19,6 +19,15 @@ section {
   text-align: left; /* Alineación izquierda dentro de secciones */
 }
 
+/* Contenedor tablas */
+#inscripcion, #rendicion, #postulacion, #matricula {
+    background-color: #ffe4e1; /* Color rosado */
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #ff7f7f; /* Borde rojo claro */
+    border-radius: 10px;
+}
+
 /* Títulos */
 header {
     background: linear-gradient(90deg, #3498db, #8e44ad);
