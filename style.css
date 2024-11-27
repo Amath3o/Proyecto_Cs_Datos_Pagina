@@ -16,7 +16,8 @@ section {
   background: white; /* Fondo blanco */
   border-radius: 8px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
-  text-align: left; /* Alineación izquierda dentro de secciones */
+  text-align: justify; /* Alineación justificada */
+  white-space: normal; /* Ignora espacios adicionales en HTML */
 }
 
 /* Títulos */
@@ -25,10 +26,14 @@ header {
   color: #ffffff;
   padding: 1rem 0;
   text-align: center;
+  text-align: justify; /* Alineación justificada */
+  white-space: normal; /* Ignora espacios adicionales en HTML */
 }
 header h1 {
   margin:0;
   font-size: 2.5rem;
+  text-align: justify; /* Alineación justificada */
+  white-space: normal; /* Ignora espacios adicionales en HTML */
 }
 
 h2 {
@@ -37,6 +42,8 @@ h2 {
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
   margin-bottom: 20px;
+  text-align: justify; /* Alineación justificada */
+  white-space: normal; /* Ignora espacios adicionales en HTML */
 }
 
 /* Navegación */
