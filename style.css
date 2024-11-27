@@ -19,7 +19,7 @@ section {
   text-align: left; /* Alineación izquierda dentro de secciones */
 }
 
-/* Contenedor tablas */
+/* Contenedor tablas *
 #inscripcion, #rendicion, #postulacion, #matricula {
   background-color: #F3F3F3; 
   padding: 20px;
@@ -27,6 +27,21 @@ section {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
 }
+
+/*Prueba*/
+#inscripcion, #rendicion, #postulacion, #matricula {
+  background: linear-gradient(135deg, #4a90e2, #6a1b9a); /* Degradado azul-morado */
+    border-radius: 15px;
+    padding: 25px;
+    color: white; /* Texto blanco dentro del contenedor */
+    max-width: 900px;
+    margin: 20px auto;
+}
+#inscripcion h4, #rendicion h4, #postulacion h4, #matricula h4{
+  text-align: center;
+    margin-bottom: 20px;
+}
+
 
 /* Títulos */
 header {
@@ -119,7 +134,7 @@ a.link-demre:hover {
     border-bottom-color: #2980b9; /* Cambia el color de la línea al pasar el ratón */
 }
 
-/* Estilo para las tablas */
+/* Estilo para las tablas
 .tabla-estilo {
     width: 100%;
     border-collapse: collapse;
@@ -139,16 +154,42 @@ a.link-demre:hover {
     color: #333;
 }
 
+estilo zebra
 /*
 .tabla-estilo tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 */
 
+/*
 .tabla-estilo tr:hover {
     background-color: #EEE3FF;
 }
 
+/* Prueab otro estilo Tabla dentro del contenedor */
+..tabla-estilo {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white; /* Fondo blanco para la tabla */
+    border-radius: 10px;
+    overflow: hidden; /* Esconde bordes sobrantes */
+}
+
+.tabla-estilo th {
+    background-color: #4a90e2; /* Azul para el encabezado */
+    color: white;
+    padding: 10px;
+}
+
+.tabla-estilo td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tabla-estilo tr:hover {
+    background-color: #f3e5f5; /* Morado claro al pasar el mouse */
+}
 
 /* Footer */
 .estilo_footer {
