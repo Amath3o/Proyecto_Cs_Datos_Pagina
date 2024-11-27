@@ -15,35 +15,36 @@ section {
   padding: 20px; /* Espaciado interno */
   background: white; /* Fondo blanco */
   border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra más marcada */
+  border-left: 6px solid #3498db; /* Barra de color a la izquierda */
   text-align: left; /* Alineación izquierda dentro de secciones */
 }
 
-/* Contenedor tablas *
-#inscripcion, #rendicion, #postulacion, #matricula {
-  *background: linear-gradient(135deg, #4a90e2, #6a1b9a); /* Degradado azul-morado *
-  padding: 25px;
-  border-radius: 15px;
-  max-width: 900px;
-  margin: 20px auto;
-} */
-
 /* Contenedor tablas */
 #inscripcion, #rendicion, #postulacion, #matricula {
-  background-color: #F2F2F2; 
+  background-color: #ffffff; /* Fondo blanco */
   padding: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+  border: 1px solid #ddd; /* Borde gris claro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  transition: all 0.3s ease-in-out; /* Animación suave */
 }
 
-/*Títulos tablas*/
-#inscripcion h3, #rendicion h3, #postulacion h3, #matricula h3{
+#inscripcion:hover, #rendicion:hover, #postulacion:hover, #matricula:hover {
+  border-color: #3498db; /* Cambia el color del borde al pasar el mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Incrementa la sombra */
+}
+
+/* Títulos de las tablas */
+#inscripcion h3, #rendicion h3, #postulacion h3, #matricula h3 {
   text-align: center;
-  color: #4a90e2;
+  color: #3498db; /* Azul profesional */
   margin: 20px 0;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-
 
 /* Títulos */
 header {
@@ -106,7 +107,6 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-
 /* Párrafos */
 p {
   margin-bottom: 20px; /* Espaciado entre párrafos */
@@ -136,47 +136,7 @@ a.link-demre:hover {
     border-bottom-color: #2980b9; /* Cambia el color de la línea al pasar el ratón */
 }
 
-/* Estilo para las tablas
-.tabla-estilo {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 30px;
-    background-color: #D3EBFF;
-}
-
-.tabla-estilo th, .tabla-estilo td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-.tabla-estilo th {
-    background-color: #B2CBDF;
-    font-weight: bold;
-    color: #333;
-}
-
-estilo zebra
-/*
-.tabla-estilo tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-*/
-
-/*
-.tabla-estilo tr:hover {
-    background-color: #EEE3FF;
-}
-*/
-
-/*
-.titulo_centrado {
-    text-align: center;
-    color: #4a90e2;
-    margin: 20px 0;
-} */
-
-/* Prueab otro estilo Tabla*/
+/* Estilo para las tablas */
 .tabla-estilo {
     width: 80%;
     margin: auto; /* Centra horizontalmente */
@@ -210,3 +170,4 @@ estilo zebra
   color: white;
   margin-top: 2rem;
 }
+
