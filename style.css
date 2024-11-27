@@ -124,6 +124,7 @@ a.link-demre:hover {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 30px;
+   background-color: #EEE3FF;
 }
 
 .tabla-estilo th, .tabla-estilo td {
@@ -145,7 +146,7 @@ a.link-demre:hover {
 */
 
 .tabla-estilo tr:hover {
-    background-color: #7D88FF;
+    background-color: #D3EBFF;
 }
 
 
