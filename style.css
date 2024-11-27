@@ -70,7 +70,8 @@ nav ul li a:hover {
 /* Párrafos */
 p {
   margin-bottom: 20px; /* Espaciado entre párrafos */
-}
+  text-align: justify; /* Alineación justificada */
+  white-space: normal; /* Ignora espacios adicionales en HTML */
 
 /* Imágenes */
 img {
