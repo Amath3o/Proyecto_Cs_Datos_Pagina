@@ -53,25 +53,19 @@ h2 {
 }
 
 /* Navegación */
-nav {
-  background-color: #2674a8;
-  padding: 0.5rem 0;
-}
-
 nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
 nav ul li {
-  margin: 0 1rem;
+  margin: 0 10px;
 }
 
 nav ul li a {
-  color: #ffffff;
+  color: #3498db;
   font-weight: bold;
   text-decoration: none;
 }
@@ -79,6 +73,7 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
 
 /* Párrafos */
 p {
