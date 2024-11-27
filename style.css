@@ -114,6 +114,7 @@ a.link-demre:hover {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
+    white-space: nowrap; /* Evita que el texto se desborde */
 }
 
 .tabla-estilo th {
