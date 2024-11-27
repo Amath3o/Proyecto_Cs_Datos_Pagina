@@ -26,8 +26,9 @@
     <section id="introduccion">
         <h2>Introducción</h2>
         <p>La educación es esencial para el progreso de la sociedad, pero en Chile, las diferencias económicas y sociales afectan su acceso y calidad. 
-            A pesar de los esfuerzos del Ministerio de Educación, las desigualdades son notorias entre instituciones públicas, subvencionadas y privadas, impactando recursos, infraestructura y calidad de enseñanza. 
-            Esto dificulta que estudiantes de colegios con menos recursos ingresen a la educación superior, limitando sus oportunidades y desarrollo.</p>
+            A pesar de los esfuerzos del Ministerio de Educación, las desigualdades son notorias entre instituciones públicas, subvencionadas y privadas, 
+            impactando recursos, infraestructura y calidad de enseñanza. Esto dificulta que estudiantes de colegios con menos recursos ingresen a la educación 
+            superior, limitando sus oportunidades y desarrollo.</p>
 
         <p>Por ello, la motivación de este proyecto radica en la creciente preocupación por las desigualdades sociales y su impacto en las oportunidades educativas. 
             Siendo nuestro objetivo entender cómo las diferencias económicas afectan el acceso a la educación superior, generando conciencia sobre este tema, 
@@ -43,8 +44,8 @@
             disponibles en el portal oficial de <a href="https://demre.cl/portales/portal-bases-datos" class="link-demre">base de datos del DEMRE</a>.
         </p>
         <h3>ETL</h3>
-        Tras descomprimir todos los archivos, agrupamos los dataframes correspondientes a los años 2019-2023 según su sección y realizamos una limpieza para conservar únicamente la información relevante para nuestra investigación. 
-        Los datos finales quedaron organizados de la siguiente manera:
+        Tras descomprimir todos los archivos, agrupamos los dataframes correspondientes a los años 2019-2023 según su sección y realizamos una limpieza para conservar 
+        únicamente la información relevante para nuestra investigación. Los datos finales quedaron organizados de la siguiente manera:
 
         <!-- Tabla de Inscripción -->
             <section id="inscripcion">
@@ -232,40 +233,207 @@
 
         <!-- EDA -->
         <h3>EDA</h3>
-        <p>En Chile, los ingresos per cápita familiares son un indicador clave para evaluar el nivel de riqueza y bienestar económico a nivel territorial. 
-            Este indicador mide la distribución de los recursos económicos entre los miembros de un hogar, proporcionando una aproximación a las desigualdades económicas y sociales presentes en distintas áreas del país.
+        <p>En Chile, los ingresos per cápita familiares son un indicador clave para evaluar el nivel de riqueza y bienestar económico a nivel 
+            territorial. Este indicador mide la distribución de los recursos económicos entre los miembros de un hogar, proporcionando una 
+            aproximación a las desigualdades  económicas y sociales presentes en distintas áreas del país.
         </p>
 
-        <p>En este análisis, nos enfocaremos en el ingreso per cápita familiar de los postulantes a la prueba de acceso a la educación superior de la Región Metropolitana, calculando la mediana de los ingresos en cada comuna. 
-            Este enfoque ofrece una evaluación más robusta, ya que la mediana minimiza el impacto de valores extremos y proporciona una perspectiva más representativa sobre la capacidad económica de las familias en cada territorio.
+        <p>En este análisis, nos enfocaremos en el ingreso per cápita familiar de los postulantes a la prueba de acceso a la educación superior 
+            de la Región Metropolitana, calculando la mediana de los ingresos en cada comuna. Este enfoque ofrece una evaluación más robusta, ya
+            que la mediana minimiza el impacto de valores extremos y proporciona una perspectiva más representativa sobre la capacidad económica 
+            de las familias en cada territorio.
         </p>
 
-        *gráfico*
+        <!-- ********** AQUI VA EL GRAFICO ********** -->
 
          <p>Como resultado, podemos observar una notable diferencia en los ingresos per cápita familiares entre las comunas del país. 
-             En el extremo superior, destacan comunas como Vitacura y Lo Barnechea, donde los ingresos per cápita alcanzan cifras de $1.898.010 o más, situándolas como las áreas con mayores niveles de bienestar económico.
+             En el extremo superior, destacan comunas como Vitacura y Lo Barnechea, donde los ingresos per cápita alcanzan cifras de $1.898.010 
+             o más, situándolas como las áreas con mayores niveles de bienestar económico.
          </p>
         
-        <p>Por otro lado, comunas como El Monte, La Pintana, Paine, La Granja, entre otras, presentan ingresos significativamente más bajos, con rangos que varían entre $270.000 y $356.000. 
-            Esta brecha, refleja profundas desigualdades económicas y sociales, evidenciando las disparidades que persisten en el territorio nacional.
+        <p>Por otro lado, comunas como El Monte, La Pintana, Paine, La Granja, entre otras, presentan ingresos significativamente más bajos, 
+            con rangos que varían entre $270.000 y $356.000. Esta brecha, refleja profundas desigualdades económicas y sociales, 
+            evidenciando las disparidades que persisten en el territorio nacional.
         </p>
 
-         <p>Por otro lado, comunas como El Monte, La Pintana, Paine, La Granja, entre otras, presentan ingresos significativamente más bajos, con rangos que varían entre $270.000 y $356.000. 
-            Esta brecha, refleja profundas desigualdades económicas y sociales, evidenciando las disparidades que persisten en el territorio nacional.
+         <p>Por otro lado, comunas como El Monte, La Pintana, Paine, La Granja, entre otras, presentan ingresos significativamente más bajos, 
+             con rangos que varían entre $270.000 y $356.000. Esta brecha, refleja profundas desigualdades económicas y sociales, 
+             evidenciando las disparidades que persisten en el territorio nacional.
          </p>
 
-        <!-- Preguntas -->
-        <h4>¿Qué tipo de colegio tiene la mayor tasa de abandono en el proceso de postulación universitaria?</h4>
-        <p>En Chile, el acceso a la educación superior está dividido en varias etapas, como lo son la inscripción, rendición de pruebas, postulación y matrícula. 
-            Sin embargo, no todos los estudiantes logran completar cada una de estas etapas para acceder finalmente a la educación superior. 
-            Por esta razón, decidimos analizar la cantidad de abandonos en las etapas más significativas de este proceso.
-        </p>
+        <!-- Espacio extra -->
+        <br>
         
+        <!-- Pregunta1 -->
+        <h3>¿Qué tipo de colegio tiene la mayor tasa de abandono en el proceso de postulación universitaria?</h3>
+        <p>En Chile, el acceso a la educación superior está dividido en varias etapas, como lo son la inscripción, rendición de pruebas, 
+            postulación y matrícula. Sin embargo, no todos los estudiantes logran completar cada una de estas etapas para acceder finalmente 
+            a la educación superior. Por esta razón, decidimos analizar la cantidad de abandonos en las etapas más significativas de este proceso.
+        </p>
         <p>Estas etapas incluyen:</p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <ul>
+            <li><strong>Rendición de las pruebas:</strong> En esta etapa se refleja la cantidad de personas que no se presentan a rendir 
+                los exámenes requeridos, lo que les impide avanzar a la siguiente fase, que es la postulación a las diferentes universidades 
+                disponibles en Chile.</li>
+            <li><strong>Matriculación en universidades:</strong> Corresponde al proceso en el que los estudiantes formalizan su ingreso a las 
+                universidades seleccionadas, de acuerdo con los resultados obtenidos en su postulación previa.</li>
+        </ul>
+        <p>Este análisis tiene como objetivo identificar los puntos críticos donde los estudiantes enfrentan mayores dificultades y comprender 
+            los factores que podrían contribuir al abandono en cada una de estas fases del proceso de acceso a la educación superior.</p>
+
+        <!-- ********** AQUI VA EL GRAFICO ********** -->
+        
+        <p>De este gráfico podemos rescatar varios puntos, de los cuales rescatamos:</p>
+        <ul>
+            <li>La mayor tasa de abandono ocurre en la etapa de matrícula, específicamente entre las personas que estudiaron en colegios públicos
+                y subvencionados, con una pequeña diferencia. En comparación, la diferencia que existe entre estos colegios y los privados es bastante
+                notoria, ya que los colegios públicos y subvencionados duplican la cantidad de personas que han abandonado los colegios privados. 
+                Esto puede deberse a diversos factores, pero uno de los que podemos inferir es la calidad de la enseñanza, los recursos disponibles en
+                los establecimientos privados y la preparación previa para desarrollar estas pruebas que entregan estos establecimientos privados.</li>
+            <li>A pesar de que en la etapa de rendición observamos una tendencia similar, la mayor cantidad de personas abandona esta etapa en los 
+                colegios públicos o subvencionados, mientras que ningún estudiante proveniente de colegios privados lo hace. Se puede notar que el 
+                abandono en esta etapa es considerablemente menor en comparación con el proceso de matrícula. Esto podría deberse a que, una vez que 
+                los estudiantes han llegado a la etapa de rendición de pruebas, ya han invertido tiempo y esfuerzo en su preparación, lo que podría 
+                generar un mayor sentido de compromiso. También es posible que algunos estudiantes decidan rendir las pruebas simplemente para experimentar 
+                el proceso y entender cómo es enfrentar este tipo de evaluaciones sin esperar ningún tipo de resultado en específico.</li>
+        </ul>
+
+        !!!!!!!GRÁFICO
+        
+        <p>Con base en los datos mostrados en los gráficos anteriores, podemos concluir que la mayoría de las personas que abandonan las distintas 
+            etapas del proceso de postulación a la educación superior provienen de colegios públicos y subvencionados. Este patrón refleja una tendencia 
+            en la que los estudiantes de estos establecimientos enfrentan mayores dificultades en su transición hacia la educación superior. Las razones
+            de este abandono pueden estar relacionadas con factores como la falta de recursos, apoyo educativo insuficiente o, incluso, la preparación 
+            académica desigual en comparación con los estudiantes de colegios privados. Estos factores podrían influir en la mayor tasa de abandono 
+            observada entre los estudiantes de colegios públicos y subvencionados en relación con los de colegios privados.
+        </p>
+
+        <!-- Pregunta2 -->
+        <h3>Promedio en la prueba de acceso a la educación superior según el tipo de colegio en cada comuna</h3>
+        <p>Como mencionamos anteriormente, para acceder a la educación superior en Chile es necesario superar varias etapas, entre las cuales destaca 
+            la rendición de las pruebas, una de las más importantes. En esta instancia, los estudiantes rinden cuatro exámenes que evalúan diferentes 
+            áreas: matemáticas, lenguaje, ciencias e historia. Dependiendo del puntaje obtenido en cada prueba, se determinará a qué universidades y 
+            carreras podrá postular el estudiante. Estas evaluaciones son rendidas por estudiantes de diferentes tipos de establecimientos educativos, 
+            como colegios municipales, subvencionados y privados, según la comuna de residencia de cada uno.
+        </p>
+        <p>Revisaremos cómo se distribuyen los puntajes promedio en estas pruebas en cada comuna, explorando si los resultados están vinculados al tipo
+            de colegio al que asisten los postulantes, con el objetivo de identificar patrones y posibles desigualdades en el rendimiento académico a 
+            nivel territorial.
+        </p>
+
+        <!-- ********** AQUI VA EL GRAFICO ********** -->
+        
+        <p>En base a lo observado, podemos identificar un patrón claro. En la mayoría de los colegios municipales y subvencionados, los puntajes 
+            promedio en las pruebas suelen variar entre 0 y poco más de 500 puntos. Por otro lado, en comunas donde existen colegios privados, los promedios 
+            de puntajes en este tipo de colegios tienden a estar entre los 500 y 700 puntos. 
+        </p>
+        <p>Esto evidencia una diferencia significativa en los resultados de las pruebas según el tipo de colegio, lo que refleja desigualdades en el 
+            desempeño académico entre estos establecimientos, estrechamente relacionadas con la diferencia de ingresos entre las familias que acceden 
+            a cada tipo de colegio.
+        </p>
+
+         <!-- Pregunta3 -->
+        <h3>Variación del puntaje promedio entre las comunas</h3>
+        <p>Analizaremos la distribución de los puntajes obtenidos en cada prueba por los estudiantes de las distintas comunas, separando los resultados 
+            por año. Este análisis nos permitirá identificar patrones de rendimiento académico en áreas como matemáticas, lenguaje, ciencias e historia. 
+            Además, al desglosar los puntajes por comuna, podremos explorar variaciones entre ellas, calcular medidas centrales como la mediana y detectar
+            valores atípicos que se encuentran fuera del rango común, proporcionando una visión más detallada de las diferencias y tendencias en el desempeño 
+            estudiantil.
+        </p>
+        
+        <!-- ********** AQUI VA EL GRAFICO ********** -->
+        
+        <p>Con base en los gráficos por prueba, podemos determinar que las comunas con mayores ingresos per cápita presentan índices de puntajes más altos
+            que el promedio de las comunas con ingresos más bajos, un patrón que se observa frecuentemente en todos los gráficos y pruebas analizadas. 
+            Los resultados muestran que la mediana de los puntajes en la mayoría de las comunas es bastante similar, excepto en aquellas con mayor ingreso 
+            per cápita, que se destacan por estar significativamente por encima del promedio. Este comportamiento se repite en cada año analizado, desde 
+            2019 hasta 2023, y en todos los tipos de pruebas.
+        </p>
+        <p>Aunque en comunas con ingresos más bajos existen puntajes individuales que superan la media e incluso se encuentran fuera del rango intercuartílico, 
+            estos casos son relativamente pocos en comparacióncon el resto de los puntajes obtenidos en esas comunas (Fuera del rango común). Por otro lado, 
+            en las comunas con mayores ingresos per cápita, no se observan puntajes fuera del rango estimado, ya que los resultados obtenidos tienden a estar 
+            concentrados dentro de los valores esperados según el rango intercuartílico. Esto podría reflejar una mayor homogeneidad en el rendimiento académico 
+            dentro de estas comunas, posiblemente influida por factores como acceso a mejores recursos educativos o mayor preparación previa para las pruebas.
+        </p>
+
+        <!-- Pregunta4 -->
+        <h3>Puntaje Máximo de las Prueba por Comuna</h3>
+        <p>Basándonos en la distribución de puntajes previamente analizada, hemos identificado que, en varias comunas, existen casos de puntajes altos que, 
+            aunque no representan la mayoría, se destacan como valores fuera de lo esperado o fuera del rango normal. Esto nos lleva a explorar con mayor 
+            detalle los puntajes máximos obtenidos en cada año estudiado, así como las comunas de origen de las personas que lograron estos resultados. El 
+            objetivo es determinar si la cantidad de personas que alcanzan estos puntajes máximos es mayor en comunas con ingresos más bajos en comparación 
+            con las comunas de mayores ingresos. Esteanálisis nos permitirá explorar si, pese a las limitaciones económicas, ciertas comunas con menos recursos 
+            logran generar una proporción mayor de estudiantes con un rendimiento excepcional.
+        </p>
+        
+        <!-- ********** AQUI VA EL GRAFICO ********** -->
+        
+        <p>Como resultado del análisis, observamos que, aunque existen puntajes máximos destacados en comunas de ingresos más bajos, las comunas con ingresos más altos son las que, en general, sobresalen de manera 
+            significativa en comparación con las demás. Este patrón se repite en casi todos los años estudiados (2019-2023), con la notable excepción del año 2020. En ese año particular, las comunas que se destacan 
+            no corresponden predominantemente a aquellas de mayores ingresos, sino más bien a comunas con ingresos medios o bajos.
+        </p>
+        <p>Esta excepción es especialmente interesante, ya que en 2020 se registra un número significativamente mayor de casos de personas con puntajes altos en estas comunas, igualando e incluso superando en algunos 
+            aspectos los resultados obtenidos en las comunas de mayores ingresos. Aunque las comunas con altos ingresos siguen estando presentes, el aumento de puntajes destacados en comunas con ingresos menores sugiere
+            una posible influencia de factores externos o cambios específicos en las condiciones educativas durante ese año. Esto podría incluir modificaciones en las dinámicas de preparación académica, accesibilidad a 
+            recursos, o el impacto de eventos globales que afectaron de manera diferenciada a los estudiantes según su contexto económico y social.
+        </p>
+
+        <!-- Pregunta4 -->
+        <h3>Diferencia el desempeño entre una comuna con mayores recursos y otra con menores recursos</h3>
+        <p>En este apartado, se pretende analizar cómo varían los resultados en cada etapa del proceso de postulación a la educación superior entre una comuna con bajos ingresos per cápita y una comuna con mayores ingresos.
+            A través de este análisis, buscamos dejar en evidencia de qué manera los factores socioeconómicos influyen en el acceso a la educación superior, particularmente en las etapas más importantes del proceso, como la
+            matrícula y la rendición de las pruebas. 
+        </p>
+        <p>Al contrastar los resultados obtenidos en las distintas etapas, se podrá evidenciar cómo las desigualdades socioeconómicas, como el acceso a recursos educativos, calidad educativa, y preparación académica, afectan 
+            el rendimiento de los estudiantes y, en última instancia, sus posibilidades de acceder a la educación superior.
+        </p>
+        <p>Este análisis tiene como objetivo resaltar las diferencias existentes y generar una comprensión más clara de cómo las variaciones en el contexto económico pueden influir en el desempeño académico y las oportunidades 
+            educativas, lo que subraya la necesidad de políticas públicas que promuevan un acceso más equitativo a la educación superior.
+        </p>
+
+        <!-- ********** AQUI VA EL GRAFICO ********** -->
+        
+        <p>Las comunas seleccionadas para llevar a cabo esta comparación son La Pintana, representando a aquellas con ingresos más bajos, y Lo Barnechea, que se destaca por tener ingresos más altos. La elección de estas dos 
+            comunas se fundamenta en que ambas presentan una cantidad de estudiantes que rindieron las pruebas similar durante los años 2019 y 2022, lo que nos permite mantener un equilibrio y una base comparativa justa para 
+            analizar los resultados de ambos años.
+        </p>
+
+         <!-- ********** AQUI VA EL GRAFICO ********** -->
+        
+        <p>En primer lugar, es importante destacar los tipos de colegios presentes en estas comunas. En La Pintana, la mayoría de los establecimientos educativos son públicos o subvencionados, lo que refleja una limitada 
+            disponibilidad de recursos y una infraestructura educativa menos favorecida. Por otro lado, en Lo Barnechea, predominan los colegios privados, los cuales, en su mayoría, cuentan con mayores recursos, tanto en 
+            infraestructura como en personal docente altamente capacitado.
+        </p>
+        <p>En la etapa de rendición de las pruebas, podemos observar diferencias significativas en la distribución de los puntajes entre las dos comunas. En La Pintana, los puntajes en los cuatro tipos de prueba se concentran 
+            principalmente en el rango de 400 a 500 puntos, tanto en 2019 como en 2022. Aunque se registran algunos puntajes más altos, estos son aislados y representan una pequeña fracción del total de los estudiantes. 
+            Esto sugiere que, en general, los estudiantes de esta comuna enfrentan mayores desafíos en el rendimiento de las pruebas, lo cual puede estar relacionado con una menor preparación académica, una infraestructura 
+            educativa menos adecuada y una falta de recursos que limita las oportunidades de desarrollo académico.
+        </p>
+        <p>Por otro lado, en Lo Barnechea, los resultados son notablemente diferentes. La mayoría de los puntajes se agrupan entre 500 y casi 800 puntos, con una menor dispersión, lo que indica que el rendimiento de los estudiantes 
+            es más homogéneo y tiende a ser superior. Además, un mayor número de estudiantes alcanzan puntajes elevados, lo que refleja una mejor preparación con diversos recursos disponibles para los estudiantes. 
+        </p>
+        <p>Estas diferencias en la distribución de los puntajes no solo reflejan el contexto socioeconómico de cada comuna, sino que también subrayan las desigualdades en las oportunidades educativas y el acceso a recursos 
+            que pueden marcar la diferencia en el rendimiento académico de los estudiantes. Esto se evidencia aún más cuando comparamos las dos comunas a lo largo de los dos años analizados, mostrando una tendencia consistente 
+            en La Pintana hacia puntajes más bajos y en Lo Barnechea hacia puntajes más altos.
+        </p>
+
+        <!-- ********** AQUI VA EL GRAFICO ********** -->
+        
+        <p>En la etapa de postulaciones a universidades, se observa una diferencia notable entre La Pintana y Lo Barnechea, particularmente en cuanto a la cantidad de postulantes que lograron una postulación efectiva o quedaron 
+            en lista de espera. Lo Barnechea muestra una cifra considerablemente mayor, con el doble de personas que alcanzan estas categorías en comparación con La Pintana. Este patrón refleja la desigualdad  en las oportunidades
+            de acceso a la educación superior entre las dos comunas, lo que es un claro indicio de las desigualdades socioeconómicas presentes.
+        </p>
+        <p>En La Pintana, el proceso de postulación se ve marcado por una menor tasa de éxito, ya que solo un pequeño porcentaje de los postulantes logró asegurar un cupo en las universidades, y muchos de los estudiantes quedaron 
+            fuera del sistema o en lista de espera. Este fenómeno puede explicarse por varios factores, como la menor preparación académica de los estudiantes debido a limitaciones en recursos educativos y un acceso más restringido 
+            a información y asesoría sobre el proceso de admisión.
+        </p>
+        <p>En contraste, en Lo Barnechea, la gran mayoría de los postulantes logra obtener un lugar en las universidades, con solo un pequeño porcentaje quedando fuera del sistema o en lista de espera. Esta diferencia es un reflejo
+            de las ventajas que los estudiantes de Lo Barnechea tienen, como un mejor acceso a recursos educativos, preparación académica de alta calidad, y la posibilidad de contar con un entorno que favorece el éxito en los exámenes
+            de admisión.
+        </p>
+        <p>Se puede concluir que las comunas con mayores ingresos, como Lo Barnechea, ofrecen mejores oportunidades a sus estudiantes, mientras que en La Pintana, la falta de recursos y las barreras socioeconómicas limitan las opciones 
+            de acceso a la educación superior, incluso para aquellos estudiantes que logran superar las primeras etapas del proceso de postulación.
+</p>
         <p></p>
         <p></p>
         
