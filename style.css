@@ -20,6 +20,30 @@ section {
   text-align: left; /* Alineación izquierda dentro de secciones */
 }
 
+/* Contenedor de imágenes */
+.contenedor-imagen {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.contenedor-imagen:hover {
+  border-color: #3498db;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor-imagen img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
+
 /* Contenedor tablas */
 #inscripcion, #rendicion, #postulacion, #matricula {
   background-color: #ffffff; /* Fondo blanco */
@@ -111,29 +135,6 @@ nav ul li a:hover {
 p {
   margin-bottom: 20px; /* Espaciado entre párrafos */
   text-align: justify;
-}
-
-/* Imágenes *
-.responsive-img {
-  display: block;
-  max-width: 100%; /* Limita el ancho al contenedor 
-  height: auto;
-  margin: 20px auto; 
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
-
-/* Imágenes */
-.responsive-img {
-  background-color: #ffffff;
-  padding: 20px;
-  max-width: 100%; /* Limita el ancho al contenedor */
-  height: auto; /* Ajusta automáticamente la altura */
-  margin: 20px auto; /* Centra la imagen */
-  border-radius: 8px; /* Bordes redondeados */
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
 }
 
 /* Estilo para el enlace */
