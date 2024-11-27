@@ -19,19 +19,18 @@ section {
   text-align: left; /* Alineación izquierda dentro de secciones */
 }
 
-/* Contenedor tablas */
-#inscripcion, #rendicion, #postulacion, #matricula {
-  background: linear-gradient(135deg, #4a90e2, #6a1b9a); /* Degradado azul-morado (no se ve así) */
-  padding: 25px;
-  border-radius: 15px;
-  color: white; /* Texto blanco dentro del contenedor (no se ve así)*/
-  max-width: 900px;
-  margin: 20px auto;
-}
-
 /* Contenedor tablas *
 #inscripcion, #rendicion, #postulacion, #matricula {
-  background-color: #F3F3F3; 
+  *background: linear-gradient(135deg, #4a90e2, #6a1b9a); /* Degradado azul-morado *
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 20px auto;
+} */
+
+/* Contenedor tablas */
+#inscripcion, #rendicion, #postulacion, #matricula {
+  background-color: #F2F2F2; 
   padding: 20px;
   margin-bottom: 10px;
   border-radius: 8px;
