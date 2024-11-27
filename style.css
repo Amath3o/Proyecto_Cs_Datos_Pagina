@@ -165,6 +165,14 @@ estilo zebra
 .tabla-estilo tr:hover {
     background-color: #EEE3FF;
 }
+*/
+
+.titulo_centrado {
+    text-align: center; /* Centra el texto horizontalmente */
+    color: #4a90e2;
+    margin: 20px 0;
+}
+
 
 /* Prueab otro estilo Tabla*/
 .tabla-estilo {
