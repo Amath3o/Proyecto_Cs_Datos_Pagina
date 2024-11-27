@@ -166,8 +166,8 @@ estilo zebra
     background-color: #EEE3FF;
 }
 
-/* Prueab otro estilo Tabla dentro del contenedor */
-..tabla-estilo {
+/* Prueab otro estilo Tabla*/
+.tabla-estilo {
     width: 100%;
     border-collapse: collapse;
     background-color: white; /* Fondo blanco para la tabla */
