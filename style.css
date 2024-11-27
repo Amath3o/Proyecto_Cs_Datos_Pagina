@@ -138,13 +138,16 @@ a.link-demre:hover {
     color: #333;
 }
 
+/*
 .tabla-estilo tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+*/
 
 .tabla-estilo tr:hover {
-    background-color: #eaeaea;
+    background-color: #D3EBFF;
 }
+
 
 /* Footer */
 .estilo_footer {
