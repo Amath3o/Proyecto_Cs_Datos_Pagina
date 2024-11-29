@@ -139,7 +139,7 @@ nav {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: rgba(177, 184, 255, 0.8) /* Fondo translúcido */
+    background-color: rgba(177, 184, 255, 0.8); /* Fondo translúcido */
     padding: 10px 0;
     z-index: 1000;
 }
