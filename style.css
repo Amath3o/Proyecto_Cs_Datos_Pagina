@@ -100,7 +100,7 @@ h2 {
 
 /* Navegación */
 nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background-color: rgba(52, 152, 219, 0.8); /* Fondo translúcido */
