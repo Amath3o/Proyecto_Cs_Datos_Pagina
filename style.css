@@ -77,6 +77,11 @@ section {
     max-height: 1000px; /* Menor altura para gráficos más grandes */
 }
 
+/* Ajuste específico para tamaños uniformes */
+.grafico-mediano img {
+    max-height: 500px; /* Menor altura para gráficos más grandes */
+}
+
 
 /* Contenedor tablas */
 #inscripcion, #rendicion, #postulacion, #matricula {
