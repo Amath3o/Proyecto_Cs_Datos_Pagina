@@ -17,7 +17,7 @@ section {
   background: white; /* Fondo blanco */
   border-radius: 8px; /* Bordes redondeados */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra más marcada */
-  border-left: 6px solid #3498db; /* Barra de color a la izquierda */
+  border-left: 6px solid #A87ED5; /* Barra de color a la izquierda */
   text-align: left; /* Alineación izquierda dentro de secciones */
 }
 
@@ -112,7 +112,7 @@ section {
 
 /* Títulos */
 header {
-  background: #6F46A7;
+  background: #A87ED5;
   color: white;
   text-align: center;
   padding: 50px 10px;
@@ -166,7 +166,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #B1B8FF;
+    background-color: #A87ED5;
     color: white;
     border-radius: 5px;
 }
@@ -217,7 +217,7 @@ a.link-demre:hover {
 }
 
 .tabla-estilo tr:hover {
-    background-color: #B1B8FF; /* Morado claro al pasar el mouse */
+    background-color: #A87ED5; /* Morado claro al pasar el mouse */
 }
 
 
