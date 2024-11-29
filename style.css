@@ -77,7 +77,7 @@ section {
 /* Títulos de las tablas */
 #inscripcion h3, #rendicion h3, #postulacion h3, #matricula h3 {
   text-align: center;
-  color: #3498db;
+  color: #6F46A7;
   margin: 20px 0;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -180,7 +180,7 @@ a.link-demre:hover {
 }
 
 .tabla-estilo th {
-    background-color: #4a90e2;
+    background-color: #6F46A7;
     color: white;
     padding: 10px;
 }
