@@ -22,7 +22,7 @@ section {
 }
 
 
-/* Contenedor de imágenes */
+/* Contenedor de imágenes *
 .contenedor-imagen {
   background-color: #ffffff;
   padding: 20px;
@@ -44,6 +44,38 @@ section {
   display: block;
   margin: auto;
   border-radius: 8px;
+}
+
+/* Contenedor de imágenes */
+.contenedor-imagen {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.contenedor-imagen:hover {
+  border-color: #3498db;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor-imagen img {
+  max-width: 100%; /* Asegura que no excedan el ancho del contenedor */
+  height: auto; /* Mantiene la proporción */
+  display: block;
+  margin: auto;
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  max-height: 500px; /* Limita la altura máxima */
+  object-fit: contain; /* Asegura que la imagen no se deforme */
+}
+
+/* Ajuste específico para tamaños uniformes */
+.grafico-grande img {
+    max-height: 400px; /* Menor altura para gráficos más grandes */
 }
 
 
