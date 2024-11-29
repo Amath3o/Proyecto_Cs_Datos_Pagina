@@ -69,13 +69,12 @@ section {
   margin: auto;
   border-radius: 8px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-  max-height: 500px; /* Limita la altura máxima */
   object-fit: contain; /* Asegura que la imagen no se deforme */
 }
 
 /* Ajuste específico para tamaños uniformes */
 .grafico-grande img {
-    max-height: 400px; /* Menor altura para gráficos más grandes */
+    max-height: 1000px; /* Menor altura para gráficos más grandes */
 }
 
 
