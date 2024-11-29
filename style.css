@@ -2,7 +2,7 @@
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
-  padding: 10px; /* Añade un margen interno general para el texto */
+  padding: 10px;
   background-color: #E9E9E9;
   color: #333;
   line-height: 1.6;
@@ -11,18 +11,18 @@ body {
 
 /* Contenedor principal */
 section {
-  max-width: 960px; /* Ancho máximo del contenido */
-  margin: 20px auto; /* Márgenes automáticos para centrar */
-  padding: 20px; /* Espaciado interno */
-  background: white; /* Fondo blanco */
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra más marcada */
-  border-left: 6px solid #3498db; /* Barra de color a la izquierda */
-  text-align: left; /* Alineación izquierda dentro de secciones */
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-left: 6px solid #3498db;
+  text-align: left;
 }
 
 
-/* Contenedor de imágenes *
+/* Contenedor de imágenes */
 .contenedor-imagen {
   background-color: #ffffff;
   padding: 20px;
@@ -44,65 +44,40 @@ section {
   display: block;
   margin: auto;
   border-radius: 8px;
+  object-fit: contain;
 }
 
-/* Contenedor de imágenes */
-.contenedor-imagen {
+/* Ajuste específico para tamaños uniformes */
+.grafico-grande img {
+    max-height: 1000px;
+}
+
+/* Ajuste específico para tamaños uniformes */
+.grafico-mediano img {
+    max-height: 500px;
+}
+
+
+/* Contenedor tablas */
+#inscripcion, #rendicion, #postulacion, #matricula {
   background-color: #ffffff;
   padding: 20px;
-  margin: 20px auto;
+  margin-bottom: 20px;
   border-radius: 8px;
   border: 1px solid #ddd;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
 }
 
-.contenedor-imagen:hover {
+#inscripcion:hover, #rendicion:hover, #postulacion:hover, #matricula:hover {
   border-color: #3498db;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.contenedor-imagen img {
-  max-width: 100%; /* Asegura que no excedan el ancho del contenedor */
-  height: auto; /* Mantiene la proporción */
-  display: block;
-  margin: auto;
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-  object-fit: contain; /* Asegura que la imagen no se deforme */
-}
-
-/* Ajuste específico para tamaños uniformes */
-.grafico-grande img {
-    max-height: 1000px; /* Menor altura para gráficos más grandes */
-}
-
-/* Ajuste específico para tamaños uniformes */
-.grafico-mediano img {
-    max-height: 500px; /* Menor altura para gráficos más grandes */
-}
-
-
-/* Contenedor tablas */
-#inscripcion, #rendicion, #postulacion, #matricula {
-  background-color: #ffffff; /* Fondo blanco */
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  border: 1px solid #ddd; /* Borde gris claro */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-  transition: all 0.3s ease-in-out; /* Animación suave */
-}
-
-#inscripcion:hover, #rendicion:hover, #postulacion:hover, #matricula:hover {
-  border-color: #3498db; /* Cambia el color del borde al pasar el mouse */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Incrementa la sombra */
 }
 
 /* Títulos de las tablas */
 #inscripcion h3, #rendicion h3, #postulacion h3, #matricula h3 {
   text-align: center;
-  color: #3498db; /* Azul profesional */
+  color: #3498db;
   margin: 20px 0;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -139,7 +114,7 @@ nav {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: rgba(52, 152, 219, 0.8); /* Fondo translúcido */
+    background-color: rgba(52, 152, 219, 0.8);
     padding: 10px 0;
     z-index: 1000;
 }
@@ -174,38 +149,38 @@ nav ul li a:hover {
 
 /* Párrafos */
 p {
-  margin-bottom: 20px; /* Espaciado entre párrafos */
+  margin-bottom: 20px;
   text-align: justify;
 }
 
 
 /* Estilo para el enlace */
 a.link-demre {
-    color: #3498db; /* Cambia el color del texto */
-    font-weight: bold; /* Hace el texto en negrita */
-    text-decoration: none; /* Elimina el subrayado */
-    border-bottom: 2px solid #3498db; /* Agrega una línea debajo */
-    padding-bottom: 2px; /* Da un pequeño margen en la parte inferior */
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 2px;
 }
 
 a.link-demre:hover {
-    color: #2980b9; /* Cambia el color al pasar el ratón */
-    border-bottom-color: #2980b9; /* Cambia el color de la línea al pasar el ratón */
+    color: #2980b9;
+    border-bottom-color: #2980b9;
 }
 
 
 /* Estilo para las tablas */
 .tabla-estilo {
     width: 80%;
-    margin: auto; /* Centra horizontalmente */
+    margin: auto;
     border-collapse: collapse;
-    background-color: white; /* Fondo blanco para la tabla */
+    background-color: white;
     border-radius: 10px;
-    overflow: hidden; /* Esconde bordes sobrantes */
+    overflow: hidden;
 }
 
 .tabla-estilo th {
-    background-color: #4a90e2; /* Azul para el encabezado */
+    background-color: #4a90e2;
     color: white;
     padding: 10px;
 }
@@ -217,7 +192,7 @@ a.link-demre:hover {
 }
 
 .tabla-estilo tr:hover {
-    background-color: #B1B8FF; /* Morado claro al pasar el mouse */
+    background-color: #B1B8FF;
 }
 
 
