@@ -49,11 +49,12 @@
     <!-- Procesamiento -->
     <section id="procesamiento">
         <h2>Procesamiento de información</h2>
-        <h3>Datos usados</h3>
+        <h3>Fuente de datos</h3>
         <p>Todos los datos empleados en este trabajo son de acceso libre y fueron publicados por el Departamento de Evaluación, Medición y Registro Educacional (DEMRE). 
             Estos incluyen información relacionada con los procesos de inscripción, rendición, postulación y matrícula de los años 2019 a 2023, 
             disponibles en el portal oficial de <a href="https://demre.cl/portales/portal-bases-datos" class="link-demre">base de datos del DEMRE</a>.
         </p>
+        <h3>Datos utilizados (ETL)</h3>
         <p>Tras descomprimir todos los archivos, agrupamos los dataframes correspondientes a los años 2019-2023 según su sección y realizamos una limpieza para conservar 
         únicamente la información relevante para nuestra investigación. Los datos finales quedaron organizados de la siguiente manera:
         </p>
@@ -246,10 +247,11 @@
     
     <!-- Análisis de Datos -->
     <section id="analisis">
-        <h2>Análisis de datos y resultados</h2>
+        <h2>Análisis de información y resultados</h2>
         
         <!-- EDA -->
-        <h3>EDA</h3>
+        <!-- Pregunta1 -->
+        <h3>Ingreso per cápita de las comunas de la Región Metropolitana</h3>
         <p>En Chile, los ingresos per cápita familiares son un indicador clave para evaluar el nivel de riqueza y bienestar económico a nivel 
             territorial. Este indicador mide la distribución de los recursos económicos entre los miembros de un hogar, proporcionando una 
             aproximación a las desigualdades  económicas y sociales presentes en distintas áreas del país.
@@ -285,7 +287,7 @@
         <br>
         
         <!-- Pregunta1 -->
-        <h3>¿Qué tipo de colegio tiene la mayor tasa de abandono en el proceso de postulación universitaria?</h3>
+        <h3>Tasa de Abandono en el Acceso a la Educación Superior por Tipo de Colegio</h3>
         <p>En Chile, el acceso a la educación superior está dividido en varias etapas, como lo son la inscripción, rendición de pruebas, 
             postulación y matrícula. Sin embargo, no todos los estudiantes logran completar cada una de estas etapas para acceder finalmente 
             a la educación superior. Por esta razón, decidimos analizar la cantidad de abandonos en las etapas más significativas de este proceso.
@@ -338,7 +340,7 @@
         <br>
         
         <!-- Pregunta2 -->
-        <h3>Promedio en la prueba de acceso a la educación superior según el tipo de colegio en cada comuna</h3>
+        <h3>Distribución de Puntajes por Comuna y Tipo de Colegio</h3>
         <p>Como mencionamos anteriormente, para acceder a la educación superior en Chile es necesario superar varias etapas, entre las cuales destaca 
             la rendición de las pruebas, una de las más importantes. En esta instancia, los estudiantes rinden cuatro exámenes que evalúan diferentes 
             áreas: matemáticas, lenguaje, ciencias e historia. Dependiendo del puntaje obtenido en cada prueba, se determinará a qué universidades y 
@@ -368,7 +370,7 @@
         <br>
         
          <!-- Pregunta3 -->
-        <h3>Variación del puntaje promedio entre las comunas</h3>
+        <h3>Distribución de Puntajes por Prueba y Comuna (2019 - 2023)</h3>
         <p>Analizaremos la distribución de los puntajes obtenidos en cada prueba por los estudiantes de las distintas comunas, separando los 
             resultados por año. Este análisis nos permitirá identificar patrones de rendimiento académico en áreas como matemáticas, lenguaje, 
             ciencias e historia. Además, al desglosar los puntajes por comuna, podremos explorar variaciones entre ellas, calcular medidas 
@@ -409,7 +411,7 @@
         <br>
         
         <!-- Pregunta4 -->
-        <h3>Puntaje Máximo de las Prueba por Comuna</h3>
+        <h3>Distribución de Puntajes Máximos por Comuna</h3>
         <p>Basándonos en la distribución de puntajes previamente analizada, hemos identificado que, en varias comunas, existen casos de puntajes
             altos que, aunque no representan la mayoría, se destacan como valores fuera de lo esperado o fuera del rango normal. Esto nos lleva 
             a explorar con mayor detalle los puntajes máximos obtenidos en cada año estudiado, así como las comunas de origen de las personas 
@@ -441,7 +443,7 @@
         <br>
         
         <!-- Pregunta5 -->
-        <h3>Diferencia el desempeño entre una comuna con mayores recursos y otra con menores recursos</h3>
+        <h3>Análisis Comparativo del Proceso de Admisión entre una comuna de Menor y Mayor Ingreso</h3>
         <p>En este apartado, se pretende analizar cómo varían los resultados en cada etapa del proceso de postulación a la educación superior entre
             una comuna con bajos ingresos per cápita y una comuna con mayores ingresos.A través de este análisis, buscamos dejar en evidencia de qué
             manera los factores socioeconómicos influyen en el acceso a la educación superior, particularmente en las etapas más importantes del 
