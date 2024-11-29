@@ -139,7 +139,7 @@ nav {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: rgba(52, 152, 219, 0.8); /* Fondo translúcido */
+    background-color: rgba(177, 184, 255, 0.8) /* Fondo translúcido */
     padding: 10px 0;
     z-index: 1000;
 }
@@ -166,7 +166,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #B1B8FF;
+    background-color: #3498DB;
     color: white;
     border-radius: 5px;
 }
