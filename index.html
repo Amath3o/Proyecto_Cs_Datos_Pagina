@@ -23,6 +23,7 @@
     <nav>
         <ul>
             <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#datos">Datos</a></li>
             <li><a href="#analisis">Análisis de datos</a></li>
             <li><a href="#retroalimentación">Retroalimentación</a></li>
             <li><a href="#repositorios">Repositorios</a></li>
@@ -45,17 +46,17 @@
     </section>
 
     
-    <!-- Análisis de Datos -->
-    <section id="analisis">
-        <h2>Análisis de datos</h2>
-        <h3>Datos usados</h3>
+    <!-- Datos Usados -->
+    <section id="datos">
+        <h2>Datos usados</h2>
         <p>Todos los datos empleados en este trabajo son de acceso libre y fueron publicados por el Departamento de Evaluación, Medición y Registro Educacional (DEMRE). 
             Estos incluyen información relacionada con los procesos de inscripción, rendición, postulación y matrícula de los años 2019 a 2023, 
             disponibles en el portal oficial de <a href="https://demre.cl/portales/portal-bases-datos" class="link-demre">base de datos del DEMRE</a>.
         </p>
-        <h3>ETL</h3>
-        Tras descomprimir todos los archivos, agrupamos los dataframes correspondientes a los años 2019-2023 según su sección y realizamos una limpieza para conservar 
+            
+        <p>Tras descomprimir todos los archivos, agrupamos los dataframes correspondientes a los años 2019-2023 según su sección y realizamos una limpieza para conservar 
         únicamente la información relevante para nuestra investigación. Los datos finales quedaron organizados de la siguiente manera:
+        </p>
 
         <!-- Tabla de Inscripción -->
             <section id="inscripcion">
@@ -240,10 +241,13 @@
                     </tbody>
                 </table>
             </section>
-        
-        <!-- Espacio extra -->
-        <br>
+    </section>
 
+    
+    <!-- Análisis de Datos -->
+    <section id="analisis">
+        <h2>Análisis de datos</h2>
+        
         <!-- EDA -->
         <h3>EDA</h3>
         <p>En Chile, los ingresos per cápita familiares son un indicador clave para evaluar el nivel de riqueza y bienestar económico a nivel 
